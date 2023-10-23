@@ -1,4 +1,3 @@
-const OPENAI_KEY = "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";
 const price = 0.0002/1000;
 
 const messages = [
