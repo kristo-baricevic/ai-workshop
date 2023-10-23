@@ -1,0 +1,16 @@
+curl https://api.openai.com/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant that speaks in pig latin."
+      },
+      {
+        "role": "user",
+        "content": "What are the lyrics to Teddy Bear by Elvis Presley?"
+      }
+    ]
+  }'
