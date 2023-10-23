@@ -1,6 +1,7 @@
 
 async function send() {
     const prompt = document.querySelector("#prompt").value;
+    document.querySelector("output").textContent = "";
 
     const response = await fetch("/api/general", {
         method: 'POST',
